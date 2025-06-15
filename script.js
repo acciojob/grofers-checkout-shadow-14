@@ -4,7 +4,7 @@ document.body.appendChild(getSumBtn);
 
 const getSum = () => {
 //Add your code here
- let prices = document.querySelectorAll('.prices');
+ let prices = document.querySelectorAll('.price');
 	let sum =0;
 prices.forEach((ele)=>{ const value = parseFloat(ele.textContent);
   if (!isNaN(value)) {
